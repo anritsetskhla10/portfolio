@@ -62,6 +62,7 @@ export const PROJECTS = [
       "React Router",
       "SwiperJS",
     ],
+    link:'https://entertainment-web-app-lake-one.vercel.app/login'
   },
   {
     title: "E-commerce Product Page",
@@ -69,6 +70,7 @@ export const PROJECTS = [
     description:
       "Developed a dynamic e-commerce product page using Swiper JS and the Lightbox library. Implemented responsive image galleries and interactive product displays to enhance the user experience.",
     technologies: ["HTML", "CSS", "React", "Swiper JS", "Lightbox"],
+    link:'https://e-commerce-product-page-psi-pink.vercel.app/'
   },
   {
     title: "Planet Fact Size",
@@ -76,6 +78,7 @@ export const PROJECTS = [
     description:
       "An interactive platform that offers a glimpse into the intriguing facts and sizes of planets in our solar system. Built using React, TypeScript, and Styled Components to create a seamless and visually appealing user experience.",
     technologies: ["React", "TypeScript", "Styled Components"],
+    link:'https://planet-fact-size.vercel.app/Mercury'
   },
   {
     title: "GitHub User Search App",
@@ -83,6 +86,7 @@ export const PROJECTS = [
     description:
       "A React TypeScript application designed to explore GitHub users and their repositories. Features a clean and intuitive interface for searching GitHub users and viewing detailed information.",
     technologies: ["React", "TypeScript", "GitHub API"],
+    link:'https://github-user-search-app-alpha-blond.vercel.app/'
   },
   {
     title: "ToDo App",
@@ -90,6 +94,7 @@ export const PROJECTS = [
     description:
       "A web-based application to manage daily tasks efficiently. Users can add, complete, and remove tasks in a simple interface, developed using React, TypeScript, and Styled Components.",
     technologies: ["React", "TypeScript", "Styled Components"],
+    link:'https://to-do-app-plum-iota.vercel.app/'
   },
   {
     title: "Interactive Card Details Form",
@@ -97,6 +102,7 @@ export const PROJECTS = [
     description:
       "Created with React.js and Styled Components, this app allows users to fill and save card information, providing a dynamic and user-friendly interface.",
     technologies: ["React", "Styled Components"],
+    link:'https://interactive-card-details-form-red.vercel.app/'
   },
   {
     title: "Tip Calculator",
@@ -104,6 +110,7 @@ export const PROJECTS = [
     description:
       "A React.js web app that calculates the tip amount and total per person based on the bill, tip percentage, and number of people.",
     technologies: ["React", "JavaScript", "CSS"],
+    link:'https://tip-calculator-react-pink.vercel.app/'
   },
   {
     title: "ExploreEra",
@@ -111,6 +118,7 @@ export const PROJECTS = [
     description:
       "A fully responsive web app created for the Unilab acceleration program in one week, showcasing exploration features with a sleek design.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link:'https://unilabproject.vercel.app/'
   },
   {
     title: "Countdown Timer",
@@ -118,6 +126,7 @@ export const PROJECTS = [
     description:
       "A fully responsive countdown timer for the New Year, built with HTML, CSS, and JavaScript, providing real-time updates with engaging animations.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link:'https://anritsetskhla10.github.io/Launch-count-down-timer/'
   },
 ];
 
