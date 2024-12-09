@@ -7,8 +7,13 @@ import project5 from "../assets/projects/project5.png";
 import project6 from "../assets/projects/project6.png";
 import project7 from "../assets/projects/project7.png";
 import project8 from "../assets/projects/project8.png";
+import project9 from "../assets/projects/dine-restaurant.png";
 
-export const HERO_CONTENT = `I am a dedicated frontend developer with a passion for creating engaging and dynamic user interfaces. With a strong foundation in React and a keen eye for design, I focus on building responsive and user-friendly web applications. Currently expanding my skill set by studying 1C language, I am eager to integrate my frontend expertise with new technologies to develop innovative solutions that enhance user experiences and meet business needs.`;
+export const HERO_CONTENT = `I am a dedicated frontend developer with a passion for creating engaging and dynamic 
+              user interfaces. With a strong foundation in React and a keen eye for design, I focus on building responsive and user-friendly 
+              web applications. Currently expanding my skill set by studying: C#, Microsoft Azure, 1C language, 
+              I am eager to integrate my frontend expertise with new technologies
+              to develop innovative solutions that enhance user experiences and meet business needs.`;
 
 export const ABOUT_TEXT = `I embarked on my programming journey in September 2023 when I
  enrolled in the Front-End Development course at Algouni. During this
@@ -26,10 +31,10 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
  export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "1C Developer",
+    role: "1C support specialist",
     company: "Delivo",
     description: `Working on automating business processes using the 1C platform, focusing on package delivery systems, including sender and receiver management, service center operations, and transportation logistics.`,
-    technologies: ["1C", "HTML", "CSS", "mySQL"],
+    technologies: ["1C", "HTML", "CSS", "mySQL", "python"],
   },
   {
     year: "2024 - Present",
@@ -49,6 +54,20 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
 
 
 export const PROJECTS = [
+  {
+    title: "Dine restaurant website",
+    image: project9,
+    description:
+      "A sophisticated restaurant website offering an elegant design and user-friendly experience. Features include seamless navigation, a responsive booking form, and integrated email functionality for reservations. Built with modern technologies for optimal performance and aesthetic appeal.",
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React Router",
+      "EmailJS",
+    ],
+    link:'https://dine-restaurant-website-nine.vercel.app/'
+  },
   {
     title: "Entertainment Web App",
     image: project0,
