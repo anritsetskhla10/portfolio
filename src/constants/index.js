@@ -8,6 +8,7 @@ import project6 from "../assets/projects/project6.png";
 import project7 from "../assets/projects/project7.png";
 import project8 from "../assets/projects/project8.png";
 import project9 from "../assets/projects/dine-restaurant.png";
+import project10 from "../assets/projects/project10.png";
 
 export const HERO_CONTENT = `I am a dedicated frontend developer with a passion for creating engaging and dynamic 
               user interfaces. With a strong foundation in React and a keen eye for design, I focus on building responsive and user-friendly 
@@ -54,6 +55,19 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
 
 
 export const PROJECTS = [
+  {
+    title: "Pomodor App",
+    image: project10,
+    description:
+      "A minimalistic and efficient Pomodoro app designed to boost productivity and focus. Features include customizable work and break intervals, progress tracking for completed cycles, and intuitive notifications to keep users on schedule.",
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "ant-design",
+    ],
+    link:'https://pomodoro-app-wine.vercel.app/'
+  },
   {
     title: "Dine restaurant website",
     image: project9,
