@@ -32,10 +32,10 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
  export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "1C support specialist",
+    role: "Frontend Developer - 1C support specialist",
     company: "Delivo",
     description: `Working on automating business processes using the 1C platform, focusing on package delivery systems, including sender and receiver management, service center operations, and transportation logistics.`,
-    technologies: ["1C", "HTML", "CSS", "mySQL", "python"],
+    technologies: ["1C", "HTML", "CSS", "mySQL", "python", "React", "Telegram mini-apps", "TypeScript",  "Ant Design"],
   },
   {
     year: "2024 - Present",

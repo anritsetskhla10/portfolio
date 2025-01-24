@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Certificate from "./components/Certificate"
 import Contacts from "./components/Contacts"
 import Experience from "./components/Experience"
 import Hero from "./components/Hero"
@@ -24,6 +25,7 @@ function App() {
         <Technologies/>
         <Experience/>
         <Projects/>
+        <Certificate/>
         <Contacts/>
       </div>
     </div>

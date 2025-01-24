@@ -5,7 +5,8 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { TiHtml5 } from "react-icons/ti";
 import { SiTailwindcss } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
-import {  motion } from "framer-motion"
+import {  motion } from "framer-motion";
+import { VscAzure } from "react-icons/vsc";
 
 const iconVariants = (duration) => ({
     initial: { y: -10},
@@ -74,6 +75,13 @@ function Technologies() {
              animate='animate'
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <FaBootstrap  className='text-7xl text-purple-600'/>
+            </motion.div>
+            <motion.div 
+             variants={iconVariants(1)}
+             initial='initial'
+             animate='animate'
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <VscAzure  className='text-7xl text-purple-600'/>
             </motion.div>
         </motion.div>
       
