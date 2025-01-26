@@ -1,6 +1,7 @@
 import React from 'react'
 import {  motion } from "framer-motion"
 import Azure from '../assets/certificate/azure.png'
+import MicAzure from '../assets/certificate/microsoft-azure.png'
 import Algouni from '../assets/certificate/certificate-algouni.jpg'
 import unilab from '../assets/certificate/unilab-certification.png'
 
@@ -38,6 +39,15 @@ function Certificate() {
                 transition={{duration: 1}}
                 className='w-1/2 lg:w-1/4'>
                 <img src={Azure}  alt="Azure"
+                    width={300} height={300}  
+                    className='mb-rounded'/>
+            </motion.div>
+            <motion.div 
+                whileInView={{opacity: 1, x:0 }}
+                initial={{opacity: 0, x: 100}}
+                transition={{duration: 1}}
+                className='w-1/2 lg:w-1/4'>
+                <img src={MicAzure}  alt="azure"
                     width={300} height={300}  
                     className='mb-rounded'/>
             </motion.div>
