@@ -10,11 +10,11 @@ import project8 from "../assets/projects/project8.png";
 import project9 from "../assets/projects/dine-restaurant.png";
 import project10 from "../assets/projects/project10.png";
 
-export const HERO_CONTENT = `I am a dedicated frontend developer with a passion for creating engaging and dynamic 
-              user interfaces. With a strong foundation in React and a keen eye for design, I focus on building responsive and user-friendly 
-              web applications. Currently expanding my skill set by studying: C#, Microsoft Azure, 1C language, 
-              I am eager to integrate my frontend expertise with new technologies
-              to develop innovative solutions that enhance user experiences and meet business needs.`;
+export const HERO_CONTENT = `I am a passionate and results-driven Full Stack Developer with a strong foundation in modern web technologies and a keen eye for intuitive design. Specializing in React on the frontend and expanding my backend expertise—primarily with Node.js, along with C# and Microsoft Azure—I craft responsive, accessible, and performance-optimized digital experiences.
+
+With hands-on experience in tools like Tailwind CSS, styled-components, Framer Motion, Firebase, and Figma, I deliver both technical precision and visual appeal across the stack.
+
+My focus is on building scalable, maintainable, and innovative web applications that bridge frontend interactivity with robust backend systems. I strive to deliver complete solutions that are not only visually engaging but also technically sound, secure, and aligned with business goals.`;
 
 export const ABOUT_TEXT = `I embarked on my programming journey in September 2023 when I
  enrolled in the Front-End Development course at Algouni. During this
