@@ -22,7 +22,7 @@ function GithubTrophies() {
       <div>
         <h3 className="text-xl md:text-2xl font-medium mb-2">GitHub Streak</h3>
         <img
-          src="https://github-readme-streak-stats.herokuapp.com/?user=anritsetskhla10&"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=anritsetskhla10"
           alt="GitHub Streak Stats"
           className="max-w-full h-auto mx-auto"
         />

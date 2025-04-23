@@ -68,6 +68,7 @@
     "button": "Send Message",
     "success": "Message sent successfully!",
     "error": "Something went wrong. Try again."
-  }
+  },
+  "Certificate":"Certificate"
 
 }

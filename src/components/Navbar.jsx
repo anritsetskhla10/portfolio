@@ -55,7 +55,7 @@ function Navbar() {
       {menuOpen && (
         <div className="fixed inset-0 z-50 bg-black/50" onClick={closeMenu}>
           <div
-            className="fixed right-0 top-0 h-full w-64 bg-gray-800 p-6 shadow-lg transition-transform transform duration-300"
+            className="fixed right-0 top-0 h-full w-64 bg-slate-400 dark:bg-gray-800 p-6 shadow-lg transition-transform transform duration-300"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Close Button */}

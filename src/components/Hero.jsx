@@ -31,7 +31,9 @@ function Hero() {
             </motion.h1>
 
             <motion.span
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl text-transparent tracking-tight"
+              className="bg-gradient-to-r from-pink-900 via-slate-700 to-purple-800  
+              dark:bg-gradient-to-r dark:from-pink-300 dark:via-slate-500 dark:to-purple-500  
+              bg-clip-text text-4xl text-transparent tracking-tight"
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
