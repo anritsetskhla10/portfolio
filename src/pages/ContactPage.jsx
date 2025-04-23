@@ -29,7 +29,27 @@ function ContactsPage() {
   return (
     <section id="contact" className="px-4 py-16">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-6">{t("contactPage.title")}</h2>
+
+      <h2 className="text-3xl font-bold text-center mb-6">{t("contactPage.title")}</h2>
+        
+      <div className="text-center mb-8 flex flex-col sm:flex-row justify-center gap-4">
+        <a
+          href="../AnriCv-En.pdf"
+          download
+          className="bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-4 rounded-md font-medium transition"
+        >
+          {t("contactPage.downloadEnglishCV")}
+        </a>
+
+        <a
+          href="../AnriCv-GE.pdf"
+          download
+          className="bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-4 rounded-md font-medium transition"
+        >
+          {t("contactPage.downloadGeorgianCV")}
+        </a>
+      </div>
+
         <p className="text-center text-gray-600 dark:text-gray-300 mb-10">
           {t("contactPage.subtitle")}
         </p>

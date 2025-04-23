@@ -67,7 +67,9 @@
     "message": "Message",
     "button": "Send Message",
     "success": "Message sent successfully!",
-    "error": "Something went wrong. Try again."
+    "error": "Something went wrong. Try again.",
+    "downloadEnglishCV": "Download CV (English)",
+    "downloadGeorgianCV": "Download CV (Georgian)"
   },
   "Certificate":"Certificate"
 
