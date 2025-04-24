@@ -14,7 +14,7 @@ const ProjectDetails = () => {
 
   return (
     <div className="p-4">
-        <button onClick={() => navigate(-1)} className="text-purple-600 underline mb-4">
+        <button onClick={() => navigate(-1)} className="text-black dark:text-purple-600  underline mb-4">
         {t("← Back to Projects")}
         </button>
       <div className="flex flex-col mb-4">
@@ -22,7 +22,7 @@ const ProjectDetails = () => {
         <div className="flex flex-row gap-1 w-1/4 mb-4">
           <img src={project.image} alt={project.title} className="rounded" />
         </div>
-        <p className="mb-4 text-neutral-400">{project.description}</p>
+        <p className="mb-4 text:black dark:text-neutral-400">{project.description}</p>
       <div className="mb-4">
         {project.technologies.map((tech, index) => (
           <span key={index} className="mr-2 mt-4 px-2 py-1 rounded bg-neutral-900 text-sm font-medium text-purple-800">
@@ -31,7 +31,7 @@ const ProjectDetails = () => {
         ))}
       </div>
       </div>
-      <a href={project.link} target="_blank" className="text-blue-500 underline">{t("Visit Project")}</a>
+      <a href={project.link} target="_blank" className="text-black dark:text-blue-500 underline">{t("Visit Project")}</a>
     </div>
   );
 };
