@@ -9,6 +9,48 @@ import project7 from "../assets/projects/project7.png";
 import project8 from "../assets/projects/project8.png";
 import project9 from "../assets/projects/dine-restaurant.png";
 import project10 from "../assets/projects/project10.png";
+//pomodoro images
+import pomo from '../assets/projects/pomodoro/pomo.png';
+import pomo2 from '../assets/projects/pomodoro/pomo2.png';
+import pomo3 from '../assets/projects/pomodoro/pomo3.png';
+import pomo4 from '../assets/projects/pomodoro/pomo4.png';
+//dine restaurant images1/dine1.png';
+import dine1 from '../assets/projects/dine-restaurant1/dine1.png';  
+import dine2 from '../assets/projects/dine-restaurant1/dine2.png';  
+import dine3 from '../assets/projects/dine-restaurant1/dine3.png';
+import dine4 from '../assets/projects/dine-restaurant1/dine4.png';
+import dine5 from '../assets/projects/dine-restaurant1/dine5.png';
+//octo images
+import octo1 from '../assets/projects/devfinder/octocat.png';
+import octo2 from '../assets/projects/devfinder/octocat2.png';
+import octo3 from '../assets/projects/devfinder/octocat3.png';
+//ecommerce images
+import eccom1 from '../assets/projects/ecomerce1/eccom1.png';
+import eccom2 from '../assets/projects/ecomerce1/eccom2.png';
+import eccom3 from '../assets/projects/ecomerce1/eccom3.png';
+//planet images
+import planet1 from '../assets/projects/solar-system/planet.png';
+import planet2 from '../assets/projects/solar-system/planet2.png'; 
+import planet3 from '../assets/projects/solar-system/planet3.png';
+import planet4 from '../assets/projects/solar-system/planet4.png';
+//tip calculator images
+import tip1 from '../assets/projects/tipcalculator/tip1.png';
+import tip2 from '../assets/projects/tipcalculator/tip2.png';
+import tip3 from '../assets/projects/tipcalculator/tip3.png';
+//tik tak toe images
+import tik1 from '../assets/projects/tiktaktoe/tik1.png';
+import tik2 from '../assets/projects/tiktaktoe/tik2.png';
+import tik3 from '../assets/projects/tiktaktoe/tik3.png';
+import tik4 from '../assets/projects/tiktaktoe/tik4.png';
+//todo images
+import todo from '../assets/projects/todo/todo.png';
+import todo2 from '../assets/projects/todo/todo2.png';
+import todo3 from '../assets/projects/todo/todo3.png';
+//entertainment images
+import ent1 from '../assets/projects/entertainment/ent1.png';
+import ent2 from '../assets/projects/entertainment/ent2.png';
+import ent3 from '../assets/projects/entertainment/ent3.png';
+import ent4 from '../assets/projects/entertainment/ent4.png';
 
 export const HERO_CONTENT = `I am a passionate and results-driven Full Stack Developer with a strong foundation in modern web technologies and a keen eye for intuitive design. Specializing in React on the frontend and expanding my backend expertise—primarily with Node.js, along with C# and Microsoft Azure—I craft responsive, accessible, and performance-optimized digital experiences.
 
@@ -56,7 +98,7 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
 
 export const PROJECTS = [
   {
-    title: "Pomodor App",
+    title: "Pomodoro App",
     image: project10,
     description:
       "A minimalistic and efficient Pomodoro app designed to boost productivity and focus. Features include customizable work and break intervals, progress tracking for completed cycles, and intuitive notifications to keep users on schedule.",
@@ -66,7 +108,8 @@ export const PROJECTS = [
       "Tailwind CSS",
       "ant-design",
     ],
-    link:'https://pomodoro-app-wine.vercel.app/'
+    link:'https://pomodoro-app-wine.vercel.app/',
+    images: [pomo, pomo2, pomo3, pomo4],
   },
   {
     title: "Dine restaurant website",
@@ -80,7 +123,8 @@ export const PROJECTS = [
       "React Router",
       "EmailJS",
     ],
-    link:'https://dine-restaurant-website-nine.vercel.app/'
+    link:'https://dine-restaurant-website-nine.vercel.app/',
+    images: [dine1, dine2, dine3, dine4, dine5],
   },
   {
     title: "Entertainment Web App",
@@ -95,7 +139,8 @@ export const PROJECTS = [
       "React Router",
       "SwiperJS",
     ],
-    link:'https://entertainment-web-app-lake-one.vercel.app/login'
+    link:'https://entertainment-web-app-lake-one.vercel.app/login',
+    images: [ent1, ent2, ent3, ent4],
   },
   {
     title: "E-commerce Product Page",
@@ -103,7 +148,8 @@ export const PROJECTS = [
     description:
       "Developed a dynamic e-commerce product page using Swiper JS and the Lightbox library. Implemented responsive image galleries and interactive product displays to enhance the user experience.",
     technologies: ["HTML", "CSS", "React", "Swiper JS", "Lightbox"],
-    link:'https://e-commerce-product-page-psi-pink.vercel.app/'
+    link:'https://e-commerce-product-page-psi-pink.vercel.app/',
+    images: [eccom1, eccom2, eccom3],
   },
   {
     title: "Planet Fact Size",
@@ -111,7 +157,8 @@ export const PROJECTS = [
     description:
       "An interactive platform that offers a glimpse into the intriguing facts and sizes of planets in our solar system. Built using React, TypeScript, and Styled Components to create a seamless and visually appealing user experience.",
     technologies: ["React", "TypeScript", "Styled Components"],
-    link:'https://planet-fact-size.vercel.app/Mercury'
+    link:'https://planet-fact-size.vercel.app/Mercury',
+    images: [planet1, planet2, planet3, planet4],
   },
   {
     title: "GitHub User Search App",
@@ -119,7 +166,8 @@ export const PROJECTS = [
     description:
       "A React TypeScript application designed to explore GitHub users and their repositories. Features a clean and intuitive interface for searching GitHub users and viewing detailed information.",
     technologies: ["React", "TypeScript", "GitHub API"],
-    link:'https://github-user-search-app-alpha-blond.vercel.app/'
+    link:'https://github-user-search-app-alpha-blond.vercel.app/',
+    images: [octo1, octo2, octo3],
   },
   {
     title: "ToDo App",
@@ -127,7 +175,8 @@ export const PROJECTS = [
     description:
       "A web-based application to manage daily tasks efficiently. Users can add, complete, and remove tasks in a simple interface, developed using React, TypeScript, and Styled Components.",
     technologies: ["React", "TypeScript", "Styled Components"],
-    link:'https://to-do-app-plum-iota.vercel.app/'
+    link:'https://to-do-app-plum-iota.vercel.app/',
+    images: [todo, todo2, todo3],
   },
   {
     title: "Interactive Card Details Form",
@@ -135,7 +184,8 @@ export const PROJECTS = [
     description:
       "Created with React.js and Styled Components, this app allows users to fill and save card information, providing a dynamic and user-friendly interface.",
     technologies: ["React", "Styled Components"],
-    link:'https://interactive-card-details-form-red.vercel.app/'
+    link:'https://interactive-card-details-form-red.vercel.app/',
+    images: [project5],
   },
   {
     title: "Tip Calculator",
@@ -143,7 +193,8 @@ export const PROJECTS = [
     description:
       "A React.js web app that calculates the tip amount and total per person based on the bill, tip percentage, and number of people.",
     technologies: ["React", "JavaScript", "CSS"],
-    link:'https://tip-calculator-react-pink.vercel.app/'
+    link:'https://tip-calculator-react-pink.vercel.app/',
+    images: [tip1, tip2, tip3],
   },
   {
     title: "ExploreEra",
@@ -151,7 +202,8 @@ export const PROJECTS = [
     description:
       "A fully responsive web app created for the Unilab acceleration program in one week, showcasing exploration features with a sleek design.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link:'https://unilabproject.vercel.app/'
+    link:'https://unilabproject.vercel.app/',
+    images: [project7],
   },
   {
     title: "Countdown Timer",
@@ -159,7 +211,8 @@ export const PROJECTS = [
     description:
       "A fully responsive countdown timer for the New Year, built with HTML, CSS, and JavaScript, providing real-time updates with engaging animations.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link:'https://anritsetskhla10.github.io/Launch-count-down-timer/'
+    link:'https://anritsetskhla10.github.io/Launch-count-down-timer/',
+    images: [project6],
   },
 ];
 
