@@ -51,6 +51,21 @@ import ent1 from '../assets/projects/entertainment/ent1.png';
 import ent2 from '../assets/projects/entertainment/ent2.png';
 import ent3 from '../assets/projects/entertainment/ent3.png';
 import ent4 from '../assets/projects/entertainment/ent4.png';
+//sccss images
+import store from '../assets/projects/scssStore/store.png';
+import store2 from '../assets/projects/scssStore/store2.png'; 
+import store3 from '../assets/projects/scssStore/store3.png';
+import store4 from '../assets/projects/scssStore/store4.png';
+//delivo images
+import delivo1 from '../assets/projects/delivo-bot/bot.png';
+import delivo2 from '../assets/projects/delivo-bot/bot2.jpg';
+import delivo3 from '../assets/projects/delivo-bot/bot3.jpg';
+import delivo4 from '../assets/projects/delivo-bot/bot4.jpg';
+import delivo5 from '../assets/projects/delivo-bot/bot5.jpg';
+import delivo6 from '../assets/projects/delivo-bot/bot6.jpg';
+
+
+
 
 export const HERO_CONTENT = `I am a passionate and results-driven Full Stack Developer with a strong foundation in modern web technologies and a keen eye for intuitive design. Specializing in React on the frontend and expanding my backend expertise—primarily with Node.js, along with C# and Microsoft Azure—I craft responsive, accessible, and performance-optimized digital experiences.
 
@@ -97,6 +112,46 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
 
 
 export const PROJECTS = [
+  {
+    title: "Telegram Courier Bot",
+    image: delivo2,
+    description:
+    "delivo courier delivery app integrated with Telegram Mini Apps. Built with React and TypeScript, it provides a seamless user experience with dynamic drag-and-drop order management, barcode scanning, and multilingual support. The app communicates with a custom backend using SQL for data storage and order tracking. It leverages the Telegram Web App SDK for smooth integration, while features like form handling, camera access, and responsive UI enhance usability inside Telegram.",
+  technologies: [
+    "React.js",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Telegram Web App SDK",
+    "React Hook Form",
+    "React Router",
+    "i18next",
+    "DND Kit",
+    "Zxing Scanner",
+    "Axios",
+    "SQL",
+    "REST API"
+  ],
+  
+    link:'https://github.com/anritsetskhla10',
+    images: [delivo1, delivo2, delivo3, delivo4, delivo5, delivo6],
+  },
+  {
+    title: "tik-tak-toe",
+    image: tik1,
+    description:
+  "A simple and interactive Tic Tac Toe game built with React. Features include a responsive game board, alternating turns between players, win detection logic, and a clean UI styled with styled-components. Perfect for practicing React fundamentals and game state management.",
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "Vite",
+      "Styled-components",
+      "React Router",
+      "ESLint"
+    ],
+    link:'https://tic-tac-toe-steel-phi-61.vercel.app/',
+    images: [tik1, tik2, tik3, tik4],
+  },
   {
     title: "Pomodoro App",
     image: project10,
@@ -168,6 +223,21 @@ export const PROJECTS = [
     technologies: ["React", "TypeScript", "GitHub API"],
     link:'https://github-user-search-app-alpha-blond.vercel.app/',
     images: [octo1, octo2, octo3],
+  },
+  {
+    title: "Store App",
+    image: store,
+    description:
+  "A fully functional e-commerce store built with vanilla JavaScript and SCSS. Features include dynamic product listings fetched from a public Store API, category filtering, product detail views, and an intuitive cart system. Styled with modern SCSS for a clean and responsive user interface.",
+    technologies: [
+        "JavaScript",
+        "SCSS",
+        "API",
+        "HTML5",
+        "Responsive Design"
+      ],
+    link:'https://anritsetskhla10.github.io/store-API/',
+    images: [store, store2, store3, store4],
   },
   {
     title: "ToDo App",

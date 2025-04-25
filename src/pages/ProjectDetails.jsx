@@ -21,7 +21,7 @@ const ProjectDetails = () => {
         onClick={() => navigate(-1)}
         className="text-black dark:text-purple-600 underline mb-4"
       >
-        {t("← Back to Projects")}
+        {t("Back to Projects")}
       </button>
 
       <div className="flex flex-col mb-4">
@@ -33,7 +33,7 @@ const ProjectDetails = () => {
             key={index}
             src={image}
             alt={`${project.title} ${index + 1}`}
-            className="rounded col-span-2 row-span-2 w-full h-full object-cover"
+            className="rounded col-span-4 row-span-2 w-full h-full object-cover"
           />
         ))}
 
@@ -46,17 +46,17 @@ const ProjectDetails = () => {
           />
         ))}
 
-        {/* "More photos" tile */}
+        {/* "More photos" tile
         <div className="relative rounded overflow-hidden">
           <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center text-white text-lg font-semibold">
             +{project.images.length} Photos
           </div>
-        </div>
+        </div> */}
       </div>
 
 
         <p className="mb-4 text-black dark:text-neutral-400">
-          {project.description}
+          {t(`descriptions.${project.title}`)}
         </p>
 
         <div className="mb-4">

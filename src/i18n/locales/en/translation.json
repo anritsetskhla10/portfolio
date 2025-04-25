@@ -71,6 +71,23 @@
     "downloadEnglishCV": "Download CV (English)",
     "downloadGeorgianCV": "Download CV (Georgian)"
   },
-  "Certificate":"Certificate"
+  "Certificate":"Certificate",
+  "Back to Projects": "← Back to Projects",
+  "descriptions": {
+    "Telegram Courier Bot": "Delivo courier delivery app integrated with Telegram Mini Apps. Built with React and TypeScript, it provides a seamless user experience with dynamic drag-and-drop order management, barcode scanning, and multilingual support. The app communicates with a custom backend using SQL for data storage and order tracking. It leverages the Telegram Web App SDK for smooth integration, while features like form handling, camera access, and responsive UI enhance usability inside Telegram.",
+    "tik-tak-toe": "A simple and interactive Tic Tac Toe game built with React. Features include a responsive game board, alternating turns between players, win detection logic, and a clean UI styled with styled-components. Perfect for practicing React fundamentals and game state management.",
+    "Pomodoro App": "A minimalistic and efficient Pomodoro app designed to boost productivity and focus. Features include customizable work and break intervals, progress tracking for completed cycles, and intuitive notifications to keep users on schedule.",
+    "Dine restaurant website": "A sophisticated restaurant website offering an elegant design and user-friendly experience. Features include seamless navigation, a responsive booking form, and integrated email functionality for reservations. Built with modern technologies for optimal performance and aesthetic appeal.",
+    "Entertainment Web App": "The Entertainment Web App allows you to choose your desired movies and series from a collection. Algorithms help users find content they are interested in quickly and easily. It also has a feature to save preferred content.",
+    "E-commerce Product Page": "Developed a dynamic e-commerce product page using Swiper JS and the Lightbox library. Implemented responsive image galleries and interactive product displays to enhance the user experience.",
+    "Planet Fact Size": "An interactive platform that offers a glimpse into the intriguing facts and sizes of planets in our solar system. Built using React, TypeScript, and Styled Components to create a seamless and visually appealing user experience.",
+    "GitHub User Search App": "A React TypeScript application designed to explore GitHub users and their repositories. Features a clean and intuitive interface for searching GitHub users and viewing detailed information.",
+    "Store App": "A fully functional e-commerce store built with vanilla JavaScript and SCSS. Features include dynamic product listings fetched from a public Store API, category filtering, product detail views, and an intuitive cart system. Styled with modern SCSS for a clean and responsive user interface.",
+    "ToDo App": "A web-based application to manage daily tasks efficiently. Users can add, complete, and remove tasks in a simple interface, developed using React, TypeScript, and Styled Components.",
+    "Interactive Card Details Form": "Created with React.js and Styled Components, this app allows users to fill and save card information, providing a dynamic and user-friendly interface.",
+    "Tip Calculator": "A React.js web app that calculates the tip amount and total per person based on the bill, tip percentage, and number of people.",
+    "ExploreEra": "A fully responsive web app created for the Unilab acceleration program in one week, showcasing exploration features with a sleek design.",
+    "Countdown Timer": "A fully responsive countdown timer for the New Year, built with HTML, CSS, and JavaScript, providing real-time updates with engaging animations."
+  }
 
 }
