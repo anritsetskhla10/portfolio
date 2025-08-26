@@ -34,7 +34,7 @@ function ContactsPage() {
         
       <div className="text-center mb-8 flex flex-col sm:flex-row justify-center gap-4">
         <a
-          href="../AnriCv-En.pdf"
+          href="../AnriTsetskhlashvili - CV -En.pdf"
           download
           className="bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-4 rounded-md font-medium transition"
         >
@@ -42,7 +42,7 @@ function ContactsPage() {
         </a>
 
         <a
-          href="../AnriCv-GE.pdf"
+          href="../AnriTseTskhlashvili - CV-Ge.pdf"
           download
           className="bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-4 rounded-md font-medium transition"
         >
