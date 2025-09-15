@@ -27,6 +27,13 @@
     "title": "Experience",
     "experiences": [
       {
+        "year": "2025 Sept - Present",
+        "role": "Frontend Developer",
+        "company": "Kan-Guroo",
+        "description": "As a Frontend Developer at Kan-guroo, I build dynamic, responsive web applications using React, Next.js, and TypeScript. I collaborate closely with designers to translate Figma prototypes into pixel-perfect interfaces, integrating animations with Framer Motion and interactive visuals with Canvas and Loopsie. I implement multilingual support with i18next and create seamless user experiences, including automated email workflows with EmailJS and scalable styling using Tailwind CSS.",
+        "technologies": ["React", "Next.js", "JavaScript", "TypeScript", "Figma", "framer-motion", "Tailwind CSS", "Loopsie", "Canvas", "i18next", "EmailJS"]
+      },
+      {
         "year": "2025 Jan - Present",
         "role": "Full Stack Developer",
         "company": "Delivo",
@@ -88,6 +95,32 @@
     "Tip Calculator": "A React.js web app that calculates the tip amount and total per person based on the bill, tip percentage, and number of people.",
     "ExploreEra": "A fully responsive web app created for the Unilab acceleration program in one week, showcasing exploration features with a sleek design.",
     "Countdown Timer": "A fully responsive countdown timer for the New Year, built with HTML, CSS, and JavaScript, providing real-time updates with engaging animations."
-  }
+  },
+  "education": {
+  "title": "Education",
+  "schools": [
+    {
+      "institution": "Georgian Technical University",
+      "degree": "Master's in Informatics",
+      "period": "Starting Sep 2025"
+    },
+    {
+      "institution": "Unilab",
+      "degree": "Front-End Acceleration Program",
+      "period": "Apr 2024 – Nov 2024"
+    },
+    {
+      "institution": "AlgoUni",
+      "degree": "Front-End Developer Program",
+      "period": "Sep 2023 – Sep 2024"
+    },
+    {
+      "institution": "Tbilisi State Medical University",
+      "degree": "Bachelor's Degree in Medicine",
+      "period": "Sep 2018 – Feb 2024"
+    }
+  ]
+}
+
 
 }
