@@ -9,6 +9,8 @@ import project7 from "../assets/projects/project7.png";
 import project8 from "../assets/projects/project8.png";
 import project9 from "../assets/projects/dine-restaurant.png";
 import project10 from "../assets/projects/project10.png";
+import delivomobmain from '../assets/projects/delivo-mob/delivo-mob2.jpg';
+
 //pomodoro images
 import pomo from '../assets/projects/pomodoro/pomo.png';
 import pomo2 from '../assets/projects/pomodoro/pomo2.png';
@@ -64,8 +66,17 @@ import delivo4 from '../assets/projects/delivo-bot/bot4.jpg';
 import delivo5 from '../assets/projects/delivo-bot/bot5.jpg';
 import delivo6 from '../assets/projects/delivo-bot/bot6.jpg';
 
-
-
+//delivo app
+import delivomob from '../assets/projects/delivo-mob/delivo-mob.jpg';
+import delivomob2 from '../assets/projects/delivo-mob/delivo-mob2.jpg';
+import delivomob3 from '../assets/projects/delivo-mob/delivo-mob3.jpg';
+import delivomob4 from '../assets/projects/delivo-mob/delivo-mob4.jpg';
+import delivomob5 from '../assets/projects/delivo-mob/delivo-mob5.jpg';
+import delivomob6 from '../assets/projects/delivo-mob/delivo-mob6.jpg';
+import delivomob7 from '../assets/projects/delivo-mob/delivo-mob7.jpg';
+import delivomob8 from '../assets/projects/delivo-mob/delivo-mob8.jpg';
+import delivomob9 from '../assets/projects/delivo-mob/delivo-mob9.jpg';
+import delivomob10 from '../assets/projects/delivo-mob/delivo-mob10.jpg';
 
 export const HERO_CONTENT = `I am a passionate and results-driven Full Stack Developer with a strong foundation in modern web technologies and a keen eye for intuitive design. Specializing in React on the frontend and expanding my backend expertise—primarily with Node.js, along with C# and Microsoft Azure—I craft responsive, accessible, and performance-optimized digital experiences.
 
@@ -112,6 +123,26 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
 
 
 export const PROJECTS = [
+  {
+      title: "Delivo Mobile App",
+      image: delivomobmain, 
+      description:
+        "Courier mobile application built with React Native and Expo. Integrated with Firebase for secure authentication and Google Maps API for real-time location tracking and routing. The app leverages NativeWind (Tailwind CSS) for styling, Lucide icons for UI, and features camera scanning, multi-language support (i18next), and smooth animations to provide a premium user experience.",
+      technologies: [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Firebase",
+        "Google Maps API",
+        "NativeWind (Tailwind)",
+        "React Navigation",
+        "i18next",
+        "React Native Reanimated",
+        "Expo Camera"
+      ],
+      link: 'https://github.com/anritsetskhla10',
+      images: [delivomob, delivomob2, delivomob3, delivomob4, delivomob5, delivomob6, delivomob7, delivomob8, delivomob9, delivomob10],
+    },
   {
     title: "Telegram Courier Bot",
     image: delivo2,
