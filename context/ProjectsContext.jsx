@@ -14,7 +14,7 @@ export const ProjectsProvider = ({ children }) => {
         const response = await fetch('/api/projects');
         if (response.ok) {
           const dynamicProjects = await response.json();
-          setProjects([...LOCAL_PROJECTS, ...dynamicProjects]);
+          setProjects([...dynamicProjects, ...LOCAL_PROJECTS]);
         }
       } catch (err) {
         console.error("ვერ მოხერხდა ახალი პროექტების წამოღება:", err);
