@@ -1,0 +1,34 @@
+import{ createContext, useState, useEffect } from 'react';
+import { PROJECTS as LOCAL_PROJECTS } from '../src/constants/index';
+
+export const ProjectsContext = createContext();
+// eslint-disable-next-line react/prop-types
+export const ProjectsProvider = ({ children }) => {
+
+  const [projects, setProjects] = useState(LOCAL_PROJECTS);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchDynamicProjects = async () => {
+      try {
+        const response = await fetch('/api/projects');
+        if (response.ok) {
+          const dynamicProjects = await response.json();
+          setProjects([...LOCAL_PROJECTS, ...dynamicProjects]);
+        }
+      } catch (err) {
+        console.error("ვერ მოხერხდა ახალი პროექტების წამოღება:", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchDynamicProjects();
+  }, []);
+
+  return (
+    <ProjectsContext.Provider value={{ projects, loading }}>
+      {children}
+    </ProjectsContext.Provider>
+  );
+};
