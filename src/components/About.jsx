@@ -1,4 +1,4 @@
-import React from 'react';
+
 import AboutPic from '../assets/about.webp'; 
 import { ABOUT_TEXT } from '../constants'; 
 import { motion } from "framer-motion";

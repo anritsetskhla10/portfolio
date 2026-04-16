@@ -18,6 +18,7 @@
     "contact": "კონტაქტი"
     },
     "Technologies":"ტექნოლოგიები",
+    "loading": "იტვირთება...",
     "contact": {
       "address": "თბილისი, საქართველო",
       "phoneNo": "+995 598 348 189",
@@ -34,7 +35,7 @@
             "technologies": ["React", "Next.js", "JavaScript", "TypeScript", "Figma", "framer-motion", "Tailwind CSS", "Loopsie", "Canvas", "i18next", "EmailJS"]
           },
             {
-              "year": "2025 იანვარი - დღემდე",
+              "year": "2025 იანვარი - 2026 მარტი",
               "role": "Full Stack Developer",
               "company": "Delivo",
               "description": "Delivo-ში Full Stack Developer-ის როლში, ვმუშაობ როგორც frontend, ასევე backend სისტემების სრულ ციკლზე. ვგეგმავ, ვახორციელებ და ვუზრუნველყოფ სკალირებად ვებ აპლიკაციებს, რომლებიც ამყარებენ Delivo-ს ლოჯისტიკასა და ბიზნესის ავტომატიზაციის სერვისებს. ჩემი ძირითადი პასუხისმგებლობები მოიცავს RESTful API-ების განვითარებას და ინტეგრირებას, frontend-თან backend სისტემების შეუფერხებელი კომუნიკაციის უზრუნველყოფას და პლატფორმის ზოგადი არქიტექტურის ოპტიმიზაციას.",
