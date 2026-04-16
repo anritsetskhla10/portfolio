@@ -17,7 +17,8 @@
   "achievements": "Achievements",
   "contact": "Contact"
   },
-  "Technologies":"Technologies",
+  "Technologies": "Technologies",
+  "loading": "Loading...",
   "contact": {
     "address": "Tbilisi, Georgia",
     "phoneNo": "+995 598 348 189",

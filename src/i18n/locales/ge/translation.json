@@ -17,7 +17,8 @@
     "achievements": "მიღწევები",
     "contact": "კონტაქტი"
     },
-    "Technologies":"ტექნოლოგიები",
+    "Technologies": "ტექნოლოგიები",
+    "loading": "იტვირთება...",
     "contact": {
       "address": "თბილისი, საქართველო",
       "phoneNo": "+995 598 348 189",

@@ -9,8 +9,6 @@ import project7 from "../assets/projects/project7.png";
 import project8 from "../assets/projects/project8.png";
 import project9 from "../assets/projects/dine-restaurant.png";
 import project10 from "../assets/projects/project10.png";
-import delivomobmain from '../assets/projects/delivo-mob/delivo-mob2.jpg';
-
 //pomodoro images
 import pomo from '../assets/projects/pomodoro/pomo.png';
 import pomo2 from '../assets/projects/pomodoro/pomo2.png';
@@ -95,7 +93,7 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
  professional growth as a Front-End Developer, continuously expanding
  my expertise. My ultimate goal is to excel as a programmer, overcoming
  challenges with determination. I am committed to pushing boundaries,
- embracing opportunities fo`;
+ embracing opportunities for growth, and delivering impactful solutions.`;
 
  export const EXPERIENCES = [
   {
@@ -125,7 +123,7 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
 export const PROJECTS = [
   {
       title: "Delivo Mobile App",
-      image: delivomobmain, 
+      image: delivomob2,
       description:
         "Courier mobile application built with React Native and Expo. Integrated with Firebase for secure authentication and Google Maps API for real-time location tracking and routing. The app leverages NativeWind (Tailwind CSS) for styling, Lucide icons for UI, and features camera scanning, multi-language support (i18next), and smooth animations to provide a premium user experience.",
       technologies: [

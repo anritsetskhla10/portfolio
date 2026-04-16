@@ -27,7 +27,7 @@ function Certificate() {
                 className='w-1/2 lg:w-1/4'>
                 <img src={unilab}  alt="unilab" 
                     width={300} height={300} 
-                    className='mb-rounded'/>
+                    className='rounded'/>
             </motion.div>
             <motion.div 
                 whileInView={{opacity: 1, x:0 }}
@@ -36,7 +36,7 @@ function Certificate() {
                 className='w-1/2 lg:w-1/4'>
                 <img src={Algouni}  alt="Algouni"
                     width={300} height={300}  
-                    className='mb-rounded'/>
+                    className='rounded'/>
             </motion.div>
             <motion.div 
                 whileInView={{opacity: 1, x:0 }}
@@ -45,7 +45,7 @@ function Certificate() {
                 className='w-1/2 lg:w-1/4'>
                 <img src={Azure}  alt="Azure"
                     width={300} height={300}  
-                    className='mb-rounded'/>
+                    className='rounded'/>
             </motion.div>
             <motion.div 
                 whileInView={{opacity: 1, x:0 }}
@@ -54,7 +54,7 @@ function Certificate() {
                 className='w-1/2 lg:w-1/4'>
                 <img src={MicAzure}  alt="azure"
                     width={300} height={300}  
-                    className='mb-rounded'/>
+                    className='rounded'/>
             </motion.div>
             <motion.div 
                 whileInView={{opacity: 1, x:0 }}
@@ -63,7 +63,7 @@ function Certificate() {
                 className='w-1/2 lg:w-1/4'>
                 <img src={Azure2026}  alt="azure2026"
                     width={300} height={300}  
-                    className='mb-rounded'/>
+                    className='rounded'/>
             </motion.div>
             <motion.div 
                 whileInView={{opacity: 1, x:0 }}
@@ -72,7 +72,7 @@ function Certificate() {
                 className='w-1/2 lg:w-1/4'>
                 <img src={Pythonfun}  alt="pythonfun"
                     width={300} height={300}  
-                    className='mb-rounded'/>    
+                    className='rounded'/>    
             </motion.div>
             <motion.div 
                 whileInView={{opacity: 1, x:0 }}
@@ -81,7 +81,7 @@ function Certificate() {
                 className='w-1/2 lg:w-1/4'>
                 <img src={PythonLogic}  alt="pythonlogic"
                     width={300} height={300}  
-                    className='mb-rounded'/>    
+                    className='rounded'/>    
             </motion.div>
         </div>
     </div>
