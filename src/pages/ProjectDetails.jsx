@@ -19,7 +19,7 @@ const ProjectDetails = () => {
 
   const { projects, loading } = useContext(ProjectsContext);
 
-  if (loading) return <div className="text-center mt-10">იტვირთება...</div>;
+   if (loading) return <div className="text-center mt-10">{t("loading")}</div>;
 
   const project = projects.find(p => 
     p.repoName === slug || p.title.toLowerCase().replace(/\s+/g, '-') === slug

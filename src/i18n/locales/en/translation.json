@@ -18,6 +18,7 @@
   "contact": "Contact"
   },
   "Technologies":"Technologies",
+  "loading": "Loading...",
   "contact": {
     "address": "Tbilisi, Georgia",
     "phoneNo": "+995 598 348 189",
@@ -34,7 +35,7 @@
         "technologies": ["React", "Next.js", "JavaScript", "TypeScript", "Figma", "framer-motion", "Tailwind CSS", "Loopsie", "Canvas", "i18next", "EmailJS"]
       },
       {
-        "year": "2025 Jan - Present",
+        "year": "2025 Jan - 2026 march",
         "role": "Full Stack Developer",
         "company": "Delivo",
         "description": "As a Full Stack Developer at Delivo, I am responsible for the complete development lifecycle of both frontend and backend systems. I design, implement, and maintain robust, scalable web applications that enhance Delivo's logistics and business automation services. My key responsibilities include developing and integrating RESTful APIs, ensuring seamless communication between frontend and backend systems, and optimizing the overall architecture of the platform.",

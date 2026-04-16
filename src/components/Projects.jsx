@@ -10,7 +10,7 @@ const Projects = () => {
   const { t } = useTranslation();
   const { projects, loading } = useContext(ProjectsContext);
 
-  if (loading) return <div className="text-center my-8">იტვირთება მონაცემები...</div>;
+  if (loading) return <div className="text-center my-8">{t("loading")}</div>;
 
   return (
     <div className='border-b border-neutral-400 pb-4'>

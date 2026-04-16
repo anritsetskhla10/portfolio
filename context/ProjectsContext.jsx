@@ -17,7 +17,7 @@ export const ProjectsProvider = ({ children }) => {
           setProjects([...dynamicProjects, ...LOCAL_PROJECTS]);
         }
       } catch (err) {
-        console.error("ვერ მოხერხდა ახალი პროექტების წამოღება:", err);
+        console.error("Failed to fetch dynamic projects:", err);
       } finally {
         setLoading(false);
       }

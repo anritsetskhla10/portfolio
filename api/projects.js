@@ -1,6 +1,8 @@
 export default async function handler(req, res) {
   const repos = [
-    "PAC-MAN"
+    "PAC-MAN",
+    "StatX",
+    "smti-kanban"
   ]; 
   const githubUser = 'anritsetskhla10';
 
