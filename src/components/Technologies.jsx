@@ -1,11 +1,9 @@
-
 import { RiReactjsLine } from 'react-icons/ri'
-import { TbBrandTypescript } from "react-icons/tb";
-import { TbBrandJavascript } from "react-icons/tb";
+import { TbBrandTypescript, TbBrandJavascript } from "react-icons/tb";
 import { TiHtml5 } from "react-icons/ti";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiPostgresql, SiMongodb, SiCsharp } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
-import {  motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { VscAzure } from "react-icons/vsc";
 import { useTranslation } from "react-i18next";
 
@@ -36,6 +34,7 @@ function Technologies() {
          initial={{opacity: 0, x: -100}}
          transition={{duration: 1.5}}
         className="flex flex-wrap items-center justify-center gap-4">
+            
             <motion.div 
             variants={iconVariants(2.5)}
             initial='initial'
@@ -43,6 +42,7 @@ function Technologies() {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <RiReactjsLine className='text-7xl text-cyan-400'/>
             </motion.div>
+
             <motion.div 
              variants={iconVariants(3)}
              initial='initial'
@@ -50,6 +50,7 @@ function Technologies() {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <TbBrandTypescript className='text-7xl text-blue-400'/>
             </motion.div>
+
             <motion.div 
              variants={iconVariants(5)}
              initial='initial'
@@ -57,6 +58,37 @@ function Technologies() {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <TbBrandJavascript className='text-7xl text-yellow-500'/>
             </motion.div>
+
+            {/* New: PostgreSQL */}
+            <motion.div 
+             variants={iconVariants(3)}
+             initial='initial'
+             animate='animate'
+             title="PostgreSQL"
+             className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiPostgresql className='text-7xl text-blue-500'/>
+            </motion.div>
+
+            {/* New: MongoDB */}
+            <motion.div 
+             variants={iconVariants(4)}
+             initial='initial'
+             animate='animate'
+             title="MongoDB"
+             className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiMongodb className='text-7xl text-green-500'/>
+            </motion.div>
+
+            {/* New: C# */}
+            <motion.div 
+             variants={iconVariants(2.5)}
+             initial='initial'
+             animate='animate'
+             title="C#"
+             className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <SiCsharp className='text-7xl text-purple-600'/>
+            </motion.div>
+
             <motion.div 
              variants={iconVariants(2)}
              initial='initial'
@@ -64,6 +96,7 @@ function Technologies() {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <TiHtml5 className='text-7xl text-orange-400'/>
             </motion.div>
+            
             <motion.div 
              variants={iconVariants(6)}
              initial='initial'
@@ -71,6 +104,7 @@ function Technologies() {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <SiTailwindcss  className='text-7xl text-cyan-600'/>
             </motion.div>
+
             <motion.div 
              variants={iconVariants(4)}
              initial='initial'
@@ -78,13 +112,15 @@ function Technologies() {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <FaBootstrap  className='text-7xl text-purple-600'/>
             </motion.div>
+
             <motion.div 
              variants={iconVariants(1)}
              initial='initial'
              animate='animate'
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <VscAzure  className='text-7xl text-purple-600'/>
+                <VscAzure  className='text-7xl text-blue-600'/>
             </motion.div>
+
             <motion.div 
             variants={iconVariants(2.5)}
             initial='initial'
@@ -96,51 +132,8 @@ function Technologies() {
                 className="w-14 h-14" 
             />
             </motion.div>
+
             <motion.div 
-                variants={iconVariants(3)}
-                initial='initial'
-                animate='animate'
-                className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <img 
-                    src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" 
-                    alt="figma" 
-                    className="w-14 h-14" 
-                />
-                </motion.div>
-                <motion.div 
-                variants={iconVariants(4)}
-                initial='initial'
-                animate='animate'
-                className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <img 
-                    src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" 
-                    alt="git" 
-                    className="w-14 h-14" 
-                />
-                </motion.div>
-                <motion.div 
-                variants={iconVariants(5)}
-                initial='initial'
-                animate='animate'
-                className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <img 
-                    src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" 
-                    alt="firebase" 
-                    className="w-14 h-14" 
-                />
-                </motion.div>
-                <motion.div 
-                variants={iconVariants(2)}
-                initial='initial'
-                animate='animate'
-                className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <img 
-                    src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" 
-                    alt="nextjs" 
-                    className="w-14 h-14" 
-                />
-                </motion.div>
-                <motion.div 
                 variants={iconVariants(3)}
                 initial='initial'
                 animate='animate'
@@ -150,19 +143,9 @@ function Technologies() {
                     alt="nodejs" 
                     className="w-14 h-14" 
                 />
-                </motion.div>
-                <motion.div 
-                variants={iconVariants(1)}
-                initial='initial'
-                animate='animate'
-                className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <img 
-                    src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" 
-                    alt="postman" 
-                    className="w-14 h-14" 
-                />
-                </motion.div>
-                <motion.div 
+            </motion.div>
+
+            <motion.div 
                 variants={iconVariants(2.5)}
                 initial='initial'
                 animate='animate'
@@ -172,11 +155,11 @@ function Technologies() {
                     alt="1C" 
                     className="w-14 h-14" 
                 />
-                </motion.div>
+            </motion.div>
+
         </motion.div>
-      
     </div>
   )
 }
 
-export default Technologies 
+export default Technologies
