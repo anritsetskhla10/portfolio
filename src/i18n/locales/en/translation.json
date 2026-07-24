@@ -4,20 +4,20 @@
     "title": "Full Stack Developer",
     "content": {
       "title": "I am a passionate and results-driven Full Stack Developer with a strong foundation in modern web technologies and a keen eye for intuitive design.",
-    "specialization": "Specializing in React on the frontend and expanding my backend expertise—primarily with Node.js, along with C# and Microsoft Azure.",
-    "experience": "With hands-on experience in tools like Tailwind CSS, styled-components, Framer Motion, Firebase, and Figma, I deliver both technical precision and visual appeal across the stack.",
-    "focus": "My focus is on building scalable, maintainable, and innovative web applications that bridge frontend interactivity with robust backend systems.",
-    "goal": "I strive to deliver complete solutions that are not only visually engaging but also technically sound, secure, and aligned with business goals."
+      "specialization": "Specializing in React on the frontend and expanding my backend expertise—primarily with Node.js, along with Python, C#, and Microsoft Azure.",
+      "experience": "With hands-on experience in tools like Tailwind CSS, TanStack Query, Firebase, and Figma, I deliver both technical precision and visual appeal across the stack.",
+      "focus": "My focus is on building scalable, maintainable, and innovative web applications that bridge frontend interactivity with robust backend systems. I am adept at leveraging modern programming tools, data management techniques, and AI tools to engineer custom data processing workflows.",
+      "goal": "I strive to deliver complete solutions that are not only visually engaging but also technically sound, secure, and perfectly aligned with strategic business goals."
     }
   },
   "nav": {
-  "home": "Home",
-  "experience": "Experience",
-  "projects": "Projects",
-  "achievements": "Achievements",
-  "contact": "Contact"
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "achievements": "Achievements",
+    "contact": "Contact"
   },
-  "Technologies":"Technologies",
+  "Technologies": "Technologies",
   "loading": "Loading...",
   "contact": {
     "address": "Tbilisi, Georgia",
@@ -28,45 +28,38 @@
     "title": "Experience",
     "experiences": [
       {
-        "year": "2025 Sept - Present",
-        "role": "Frontend Developer",
+        "year": "Mar 2026 - Jun 2026",
+        "role": "Full-Stack Developer",
+        "company": "ApolloCV",
+        "description": "Architected and launched a career-focused SaaS platform from inception to deployment, managing 100% of the product lifecycle and enabling users to reduce manual CV creation and ATS optimization time by 70-80%. Engineered high-performance data processing workflows leveraging the Gemini API. Implemented advanced caching and concurrency architectures to support high-parallelism PDF exports, ensuring seamless simultaneous document generation and boosting processing speed by ~50%.",
+        "technologies": ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "Gemini API", "Vercel"]
+      },
+      {
+        "year": "Sep 2025 - Apr 2026",
+        "role": "Front-End Developer",
         "company": "Kan-Guroo",
-        "description": "As a Frontend Developer at Kan-guroo, I build dynamic, responsive web applications using React, Next.js, and TypeScript. I collaborate closely with designers to translate Figma prototypes into pixel-perfect interfaces, integrating animations with Framer Motion and interactive visuals with Canvas and Loopsie. I implement multilingual support with i18next and create seamless user experiences, including automated email workflows with EmailJS and scalable styling using Tailwind CSS.",
-        "technologies": ["React", "Next.js", "JavaScript", "TypeScript", "Figma", "framer-motion", "Tailwind CSS", "Loopsie", "Canvas", "i18next", "EmailJS"]
+        "description": "Designed and deployed standardized administrative panels adhering to international UI/UX standards, reducing daily task completion times by 40% and delivering a highly intuitive data management environment. Architected a secure, scalable backend infrastructure integrating Role-Based Access Control (RBAC), ensuring 100% data isolation across multiple user tiers and streamlining access management.",
+        "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "RBAC"]
       },
       {
-        "year": "2025 Jan - 2026 march",
-        "role": "Full Stack Developer",
+        "year": "Sep 2024 - Mar 2026",
+        "role": "Full Stack Developer & Systems Support",
         "company": "Delivo",
-        "description": "As a Full Stack Developer at Delivo, I am responsible for the complete development lifecycle of both frontend and backend systems. I design, implement, and maintain robust, scalable web applications that enhance Delivo's logistics and business automation services. My key responsibilities include developing and integrating RESTful APIs, ensuring seamless communication between frontend and backend systems, and optimizing the overall architecture of the platform.",
-        "technologies": ["React", "Node.js", "Next.js", "JavaScript", "TypeScript", "Ant Design", "Firebase", "Google Cloud", "Python", "1C", "MongoDB", "MySQL"]
+        "description": "Engineered an internal React-based courier application, streamlining operational workflows and reducing daily task management time for couriers by 20-30%. Identified critical bottlenecks in financial reporting and participated in planning the internal data flow automation project, enabling a 25% reduction in manual reporting hours. Implemented strict data validation protocols within 1C Enterprise workflows, decreasing the manual data entry error rate by over 80%.",
+        "technologies": ["React", "Node.js", "1C ERP", "Python", "SQL", "PostgreSQL", "Data Validation"]
       },
       {
-        "year": "2024 - 2025 Jan",
-        "role": "Frontend Developer – 1C Support Specialist",
-        "company": "Delivo",
-        "description": "In my role as a Frontend Developer and 1C Support Specialist at Delivo, I work to automate and streamline critical business processes using the 1C platform. My focus is on enhancing package delivery systems by improving sender and receiver management, optimizing service center workflows, and upgrading transportation logistics. I collaborate with cross-functional teams to integrate the frontend with backend systems effectively, ensuring seamless system operations. My contributions help create scalable, efficient, and user-friendly solutions that drive Delivo’s growth.",
-        "technologies": ["HTML", "CSS", "React", "Telegram mini-apps", "TypeScript", "Ant Design", "MySQL"]
-      },
-      {
-        "year": "2024 - 2024 Nov",
-        "role": "Frontend Developer",
+        "year": "Apr 2024 - Nov 2024",
+        "role": "Front-End Developer",
         "company": "Unilab",
-        "description": "At Unilab, I was responsible for building and maintaining high-performance web applications using JavaScript and React.js. My work involved close collaboration with backend developers and UX/UI designers to integrate APIs, enhance user experience, and create visually dynamic user interfaces.",
+        "description": "Engineered and maintained high-performance web applications using React.js, delivering seamless user interactions that drove a ~20% increase in target audience engagement. Collaborated within cross-functional teams of UX/UI designers and backend developers to integrate 10+ complex APIs while strictly adhering to visual design standards.",
         "technologies": ["React", "JavaScript", "SCSS", "HTML", "CSS", "TypeScript"]
-      },
-      {
-        "year": "2023 - 2024",
-        "role": "Frontend Developer",
-        "company": "AlgoUni",
-        "description": "At AlgoUni, I studied the fundamentals of frontend development, focusing on creating responsive user interfaces and understanding the best practices in web development. I worked on several hands-on projects where I gained experience in React, HTML, CSS, and JavaScript. My coursework involved building reusable components, optimizing performance, and collaborating with team projects. This period was crucial in developing my foundational skills and understanding of frontend technologies.",
-        "technologies": ["React", "HTML", "CSS", "JavaScript", "TypeScript"]
       }
     ]
   },
-  "Projects":"Projects",
-  "Project not found":"Project not found",
-  "Visit Project":"Visit Project",
+  "Projects": "Projects",
+  "Project not found": "Project not found",
+  "Visit Project": "Visit Project",
   "contactPage": {
     "title": "Get in Touch",
     "subtitle": "Interested in working together? Fill out the form below and I’ll get back to you soon!",
@@ -79,9 +72,11 @@
     "downloadEnglishCV": "Download CV (English)",
     "downloadGeorgianCV": "Download CV (Georgian)"
   },
-  "Certificate":"Certificate",
+  "Certificate": "Certificate",
   "Back to Projects": "← Back to Projects",
   "descriptions": {
+    "ApolloCV": "A career-focused SaaS platform featuring automated CV optimization and tracking tools. Built with Next.js, React, and TypeScript. The platform leverages the Gemini API for intelligent data processing workflows, advanced caching, and high-parallelism PDF exports.",
+    "Clinic Management System": "A medical software module built as a technical assignment. Developed using C# and WinForms, it demonstrates object-oriented programming skills and desktop application development. Features include patient data management and basic database CRUD operations using ADO.NET and MS-SQL.",
     "Delivo Mobile App": "Courier mobile application built with React Native and Expo. Integrated with Firebase for secure authentication and Google Maps API for real-time location tracking and routing. The app leverages NativeWind (Tailwind CSS) for styling, Lucide icons for UI, and features camera scanning, multi-language support (i18next), and smooth animations to provide a premium user experience.",
     "Telegram Courier Bot": "Delivo courier delivery app integrated with Telegram Mini Apps. Built with React and TypeScript, it provides a seamless user experience with dynamic drag-and-drop order management, barcode scanning, and multilingual support. The app communicates with a custom backend using SQL for data storage and order tracking. It leverages the Telegram Web App SDK for smooth integration, while features like form handling, camera access, and responsive UI enhance usability inside Telegram.",
     "tik-tak-toe": "A simple and interactive Tic Tac Toe game built with React. Features include a responsive game board, alternating turns between players, win detection logic, and a clean UI styled with styled-components. Perfect for practicing React fundamentals and game state management.",
@@ -99,30 +94,33 @@
     "Countdown Timer": "A fully responsive countdown timer for the New Year, built with HTML, CSS, and JavaScript, providing real-time updates with engaging animations."
   },
   "education": {
-  "title": "Education",
-  "schools": [
-    {
-      "institution": "Georgian Technical University",
-      "degree": "Master's in Informatics",
-      "period": "Starting Sep 2025"
-    },
-    {
-      "institution": "Unilab",
-      "degree": "Front-End Acceleration Program",
-      "period": "Apr 2024 – Nov 2024"
-    },
-    {
-      "institution": "AlgoUni",
-      "degree": "Front-End Developer Program",
-      "period": "Sep 2023 – Sep 2024"
-    },
-    {
-      "institution": "Tbilisi State Medical University",
-      "degree": "Bachelor's Degree in Medicine",
-      "period": "Sep 2018 – Feb 2024"
-    }
-  ]
-}
-
-
+    "title": "Education",
+    "schools": [
+      {
+        "institution": "Georgian Technical University",
+        "degree": "Master's in Informatics (Python, SQL)",
+        "period": "Sep 2025 - Present"
+      },
+      {
+        "institution": "IT Academy Step",
+        "degree": "Python, SQL",
+        "period": "May 2026 - Present"
+      },
+      {
+        "institution": "Unilab",
+        "degree": "Front-End Acceleration Program",
+        "period": "Apr 2024 - Nov 2024"
+      },
+      {
+        "institution": "AlgoUni",
+        "degree": "Front-End Development",
+        "period": "Sep 2023 - Jul 2024"
+      },
+      {
+        "institution": "Tbilisi State Medical University",
+        "degree": "Bachelor's Degree in Medicine",
+        "period": "Sep 2018 - Jun 2024"
+      }
+    ]
+  }
 }

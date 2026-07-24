@@ -10,6 +10,7 @@ import project8 from "../assets/projects/project8.png";
 import project9 from "../assets/projects/dine-restaurant.png";
 import project10 from "../assets/projects/project10.png";
 import delivomobmain from '../assets/projects/delivo-mob/delivo-mob2.jpg';
+import apollocv from '../assets/projects/apollocv.png';
 
 //pomodoro images
 import pomo from '../assets/projects/pomodoro/pomo.png';
@@ -78,11 +79,16 @@ import delivomob8 from '../assets/projects/delivo-mob/delivo-mob8.jpg';
 import delivomob9 from '../assets/projects/delivo-mob/delivo-mob9.jpg';
 import delivomob10 from '../assets/projects/delivo-mob/delivo-mob10.jpg';
 
-export const HERO_CONTENT = `I am a passionate and results-driven Full Stack Developer with a strong foundation in modern web technologies and a keen eye for intuitive design. Specializing in React on the frontend and expanding my backend expertise—primarily with Node.js, along with C# and Microsoft Azure—I craft responsive, accessible, and performance-optimized digital experiences.
+//apolloCV images
+import apollocv2 from '../assets/projects/apollocv/apollocv2.png';
+import apollocv3 from '../assets/projects/apollocv/apollocv3.png';
 
-With hands-on experience in tools like Tailwind CSS, styled-components, Framer Motion, Firebase, and Figma, I deliver both technical precision and visual appeal across the stack.
 
-My focus is on building scalable, maintainable, and innovative web applications that bridge frontend interactivity with robust backend systems. I strive to deliver complete solutions that are not only visually engaging but also technically sound, secure, and aligned with business goals.`;
+export const HERO_CONTENT = `I am a passionate and results-driven Full Stack Developer with a strong foundation in modern web technologies and a keen eye for intuitive design. Specializing in React on the frontend and expanding my backend expertise—primarily with Node.js, along with Python, C#, and Microsoft Azure—I craft responsive, accessible, and performance-optimized digital experiences.
+
+With hands-on experience in tools like Tailwind CSS, TanStack Query, Firebase, and Figma, I deliver both technical precision and visual appeal across the stack.
+
+My focus is on building scalable, maintainable, and innovative web applications that bridge frontend interactivity with robust backend systems. I strive to deliver complete solutions that are not only visually engaging but also technically sound, secure, and perfectly aligned with strategic business goals.`;
 
 export const ABOUT_TEXT = `I embarked on my programming journey in September 2023 when I
  enrolled in the Front-End Development course at Algouni. During this
@@ -92,37 +98,29 @@ export const ABOUT_TEXT = `I embarked on my programming journey in September 202
  tangible creations. I thrive on the challenge of exploring new
  technologies, languages, and libraries, finding each discovery inherently
  fascinating. Every day, I dedicate myself to both personal and
- professional growth as a Front-End Developer, continuously expanding
+ professional growth as a Full-Stack Developer, continuously expanding
  my expertise. My ultimate goal is to excel as a programmer, overcoming
  challenges with determination. I am committed to pushing boundaries,
- embracing opportunities fo`;
+ embracing opportunities for learning, and driving innovation in every project I undertake.`;
 
- export const EXPERIENCES = [
-  {
-    year: "2024 - Present",
-    role: "Frontend Developer - 1C support specialist",
-    company: "Delivo",
-    description: `Working on automating business processes using the 1C platform, focusing on package delivery systems, including sender and receiver management, service center operations, and transportation logistics.`,
-    technologies: ["1C", "HTML", "CSS", "mySQL", "python", "React", "Telegram mini-apps", "TypeScript",  "Ant Design"],
-  },
-  {
-    year: "2024 - Present",
-    role: "Frontend Developer",
-    company: "Unilab",
-    description: `Developed and maintained web applications using JavaScript and React.js, ensuring high performance and responsiveness. Collaborated closely with backend developers and designers to integrate APIs and create visually appealing UI components.`,
-    technologies: ["React", "JavaScript", "SCSS", "HTML", "CSS", "Typescript"],
-  },
-  {
-    year: "2023 - 2024",
-    role: "Frontend Developer",
-    company: "AlgoUni",
-    description: `Contributed to the development of educational platforms, building reusable components and implementing responsive designs. Optimized code for better performance and worked closely with the team to enhance user experience.`,
-    technologies: ["React", "HTML", "CSS", "JavaScript", "Typescript"],
-  },
-];
+
 
 
 export const PROJECTS = [
+  {
+    title: "ApolloCV",
+    image: apollocv,
+    description: "A career-focused SaaS platform featuring automated CV optimization and tracking tools. Integrated with Gemini AI for text processing and payment gateways.",
+    technologies: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Gemini API",
+    ],
+    link: 'https://apollocv.com/', 
+    images: [apollocv, apollocv2, apollocv3],
+  },
   {
       title: "Delivo Mobile App",
       image: delivomobmain, 
