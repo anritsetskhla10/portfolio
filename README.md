@@ -1,8 +1,37 @@
-# React + Vite
+# Personal Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio repository! This website showcases my skills, experience, and the projects I have built as a Full-Stack Developer. 
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+[View My Portfolio](https://portfolio-theta-azure-59.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Built With
+This project is built with modern web technologies to ensure high performance and a great user experience:
+
+- **Framework:** React + Vite
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Routing:** React Router v6
+- **Internationalization:** i18next (English & Georgian support)
+
+## ✨ Key Features
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewing.
+- **Dark/Light Mode:** Integrated theme switching for better accessibility.
+- **Dynamic Content:** Projects are dynamically fetched and rendered.
+- **Multilingual:** Seamless switching between English and Georgian languages.
+
+## ⚙️ Getting Started
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/anritsetskhla10/portfolio.git](https://github.com/anritsetskhla10/portfolio.git)
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Run the development server:
+   ```bash
+   npm run dev
+
